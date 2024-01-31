@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berbaoui Ashref - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/pc.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/15768e4427.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+     <div class="container">
+         <nav>
+             <a href="#"><img src="images/logo.png" class="logo" style="margin-left: -32px;"></a>
+             <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+         </nav>
+         <div class="header-text">
+            <p>ENSIA Student</p>
+            <h1>Hi, I'm <span> Ashref Berbaoui </span><br> From Algeria</h1>
+         </div>
+     </div>
+ </div>
+ <!------------------about------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG-1439.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Passionate CS & Ai Enthusiast</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills" >
+                    <ul>
+                        <li><span>Development</span><br>Websites</li>
+                        <li><span>Design</span><br>Banners</li>
+                        <li><span>Other</span><br>Other</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience" >
+                    <ul>
+                        <li><span>Experience</span><br>Experiecne</li>
+                        <li><span>Design</span><br>Banners</li>
+                        <li><span>Other</span><br>Other</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Baccalauréat Exam (2023)</span><br><br>• Obtained a grade of 18.28/20 in the Experimental Science field.
+                            <br>• Ranked first in the state.</li>
+                        <li><span>Current Studies</span><br><br>• Pursuing Ai Engineering at ENSiA since 2023.</li>
+                        <li><span>Other</span><br>Other</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+   <!-----------services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i> <!-- add more from awesomefont-->
+                <h2 class="services-byme">Web Dev</h2>
+                <p class="services-byme">Custom Web Development, tailored exclusively for crafting 
+                    custom websites that truly reflect you. Whether it's a standout portfolio, 
+                    an e-commerce site for your business, or a captivating blog, I've got the expertise 
+                    to bring your vision to life. Think of it as your digital fingerprint – unique and
+                     tailored just for you. Ready to elevate your online presence? Let's chat about 
+                     creating something extraordinary. Check out some examples of my work here and drop 
+                     me a message to get started!</p>
+                <a href="#contact" class="services-byme">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-terminal"></i>
+                <h2 class="services-byme">CPP</h2>
+                <p class="services-byme">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam.2</p>
+                <a href="#" class="services-byme">Learn more(addlink2)</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2 class="services-byme">Design</h2>
+                <p class="services-byme">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam.3</p>
+                <a href="#" class="services-byme">Learn more(addlink3)</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----Potfolio works-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/21.04.10.00.50-1618012233.1726-51068942.jpeg" alt=""> <!---- Add images later with same height!-->
+                    <div class="layer">
+                        <h3>Work 1 I did</h3>
+                        <p>Here Write what you wanna tell about you work</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> <!--Add link to your work-->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/iphone_xr_64_gb_1652973168_4a12f717_progressive.jpg" alt="">
+                    <div class="layer">
+                        <h3>Work 2 I did</h3>
+                        <p>Here Write what you wanna tell about you work</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/iphone_xr__white__128gb_1651676109_7c004ee5_progressive.jpg" alt="">
+                    <div class="layer">
+                        <h3>Work 3 I did</h3>
+                        <p>Here Write what you wanna tell about you work</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------contact------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>berbaouiachraf@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+213-794131551</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/ashreeeeeef/"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+                    <a href="https://web.facebook.com/ashref.ber"><i class="fa-brands fa-facebook" target="_blank"></i></a>
+                    <a href="https://www.linkedin.com/in/ashref-berbaoui-660070287" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Ashref1"><i class="fa-brands fa-github" target="_blank"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>  <!--------cv link----------->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" action="https://formsubmit.co/c7972cf99ff1df6772aeb478a30d9468" method="POST">
+                    <input type="text" name="_honey" style="display:none;"> <!--Honey-->
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <input type="text" name="Subject" placeholder="Your Subjet" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <input type="hidden" name="_captcha" value="false"> <!--for recaptcha disabling-->
+                    <!--<input type="hidden" name="_cc" value="/el/zanosi">--> <!---Second reciever email-->
+                    <input type="hidden" name="_next" value="https://www.google.com/"> <!--update thanks page-->
+                    <input type="hidden" name="_template" value="table"> <!-- design form-->
+                    <button type="submit" class="btn btn2" >Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright  &#169;  Ashref 2023</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");   
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+    </script>
+
+    <!---------menu---------->
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
